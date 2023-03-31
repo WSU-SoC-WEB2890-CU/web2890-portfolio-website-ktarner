@@ -1,3 +1,22 @@
+// Your styles go here
+$primary: #bf6b63;
+$secondary: #d9a384;
+$success: #5b9ea6;
+$danger: #ebf0f2;
+$warning: #e5c4c1;
+$info: #9dc5ca;
+
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+html {
+    background-color: $warning;
+}
+
+body {
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: white;
+}
