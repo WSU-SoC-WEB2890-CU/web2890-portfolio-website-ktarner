@@ -1,86 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: Portfolio website ..." />
 
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Portfolio website ...">
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
 
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
-
-<body>
-  <!-- Your HTML goes here -->
-  <!--NAV-->
-  <nav class="navbar navbar-expand-lg bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">Katie Arner</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" class="bi bi-list text-light" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-        </svg></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--NAV-->
-
-  <div class="container my-3">
-    <h1 class="display-5 text-center">Hi, I'm Katie Arner!</h1>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <p class="m-3">I am a User Experience Design major with a design emphasis at Weber State University. I graduate in May of 2024.</p>
-        <p class="m-3">I will also be graduating with the User Experience Design Certificate of Proficiency.</p>
-        <p class="m-3">Thank you for taking the time to look at my portfolio! Please contact me if you have any further questions.</p>
-      </div>
-      <div class="col-sm">
-        <img src="images/Katie Arner-16961-2.JPG" class="card-img-top" alt="kt">
-      </div>
-    </div>
-  </div>
-
-
-  <!--FOOTER-->
-  <footer class="p-3 mt-5 bg-primary">
-    <div class="container text-center">
-      <div class="row align-items-start">
-        <div class="col">
-          <a class="text-white" href="https://www.instagram.com">Instagram</a>
-        </div>
-        <div class="col">
-          <a class="text-white" href="https://www.linkedin.com/">Linkedin</a>
-        </div>
-        <div class="col">
-          <a class="text-white" href="https://www.facebook.com">Facebook</a>
+  <body>
+    <!-- Your HTML goes here -->
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Katie Arner</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list text-light"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              /></svg
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="gallery.html">Prototypes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </footer>
-  <!--FOOTER-->
+    </nav>
+    <!--NAV-->
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+    <div class="container my-3">
+      <h1 class="display-5 fw-bold text-capitalize text-center">Hi, I'm Katie Arner!</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <p class="m-3">
+            I am a User Experience Design major with a design emphasis at Weber State University. I graduate in May of
+            2024.
+          </p>
+          <p class="m-3">I will also be graduating with the User Experience Design Certificate of Proficiency.</p>
+          <p class="m-3">
+            Thank you for taking the time to look at my portfolio! Please contact me if you have any further questions.
+          </p>
+        </div>
+        <div class="col-sm">
+          <img src="images/Katie Arner-16961-2.JPG" class="card-img-top" alt="kt" />
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="p-3 mt-5 bg-primary">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <a class="text-white" href="https://www.instagram.com">Instagram</a>
+          </div>
+          <div class="col">
+            <a class="text-white" href="https://www.linkedin.com/">Linkedin</a>
+          </div>
+          <div class="col">
+            <a class="text-white" href="https://www.facebook.com">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--FOOTER-->
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>

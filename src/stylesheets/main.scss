@@ -1,43 +1,46 @@
 // Your styles go here
-$primary: #616691;
-$secondary: #8590c0;
-$success: #e3d0e0;
+$primary: #91aa9d;
+$secondary: #193441;
+$success: #3e606f;
 $danger: #ebf0f2;
-$warning: #404565;
-$info: #9dc5ca;
+$warning: #d1dbbd;
+$info: #fcfff5;
 
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 html {
-    background-color: white;
+  background-color: white;
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 // contact page
 .contact .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
 }
 
-.mail, .phone {
-    color: $secondary;
-    font-weight: 500;
-    font-size: 1.1rem;
+.mail,
+.phone {
+  color: $secondary;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .contact-form {
-    background-color: $success;
-    border-radius: 20px;
+  background-color: $success;
+  border-radius: 20px;
 }
